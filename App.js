@@ -8,6 +8,10 @@ import SignUpScreen from './screens/SignUpScreen';
 import HomeScreen from './screens/HomeScreen';
 import RestaurantScreen from './screens/RestaurantScreen';
 import OrderScreen from './screens/OrderScreen';
+import { Amplify } from 'aws-amplify'
+import awsconfig from './src/aws-exports'
+
+Amplify.configure(awsconfig)
 
 import Icon from 'react-native-vector-icons/Ionicons';
 
