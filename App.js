@@ -9,7 +9,7 @@ import HomeScreen from './screens/HomeScreen';
 import RestaurantScreen from './screens/RestaurantScreen';
 import OrderScreen from './screens/OrderScreen';
 import { Amplify } from 'aws-amplify'
-import awsconfig from './src/aws-exports'
+import awsconfig from './src/aws-exports.js'
 
 Amplify.configure(awsconfig)
 
